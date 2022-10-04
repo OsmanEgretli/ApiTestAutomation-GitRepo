@@ -1,0 +1,1113 @@
+Request method:	POST
+Request URI:	https://api.github.com/user/repos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Deneme1",
+    "description": "deneme1desc",
+    "private": true
+}
+HTTP/1.1 201 Created
+Server: GitHub.com
+Date: Tue, 04 Oct 2022 15:05:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 5457
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: "4ad11f84473f6218d9d0ef8331bdcf3978569fa089d45e7bb148ced5714150ca"
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: public_repo, repo
+Location: https://api.github.com/repos/OsmanEgretli/Deneme1
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4967
+X-RateLimit-Reset: 1664898765
+X-RateLimit-Used: 33
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: E02E:D190:280D668:289F52F:633C4BAF
+
+{
+    "id": 545548399,
+    "node_id": "R_kgDOIIRobw",
+    "name": "Deneme1",
+    "full_name": "OsmanEgretli/Deneme1",
+    "private": true,
+    "owner": {
+        "login": "OsmanEgretli",
+        "id": 99646672,
+        "node_id": "U_kgDOBfB80A",
+        "avatar_url": "https://avatars.githubusercontent.com/u/99646672?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OsmanEgretli",
+        "html_url": "https://github.com/OsmanEgretli",
+        "followers_url": "https://api.github.com/users/OsmanEgretli/followers",
+        "following_url": "https://api.github.com/users/OsmanEgretli/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OsmanEgretli/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OsmanEgretli/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OsmanEgretli/subscriptions",
+        "organizations_url": "https://api.github.com/users/OsmanEgretli/orgs",
+        "repos_url": "https://api.github.com/users/OsmanEgretli/repos",
+        "events_url": "https://api.github.com/users/OsmanEgretli/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OsmanEgretli/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "html_url": "https://github.com/OsmanEgretli/Deneme1",
+    "description": "deneme1desc",
+    "fork": false,
+    "url": "https://api.github.com/repos/OsmanEgretli/Deneme1",
+    "forks_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/forks",
+    "keys_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/teams",
+    "hooks_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/hooks",
+    "issue_events_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/events",
+    "assignees_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/tags",
+    "blobs_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/languages",
+    "stargazers_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/stargazers",
+    "contributors_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/contributors",
+    "subscribers_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/subscribers",
+    "subscription_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/subscription",
+    "commits_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/merges",
+    "archive_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/downloads",
+    "issues_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/labels{/name}",
+    "releases_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/deployments",
+    "created_at": "2022-10-04T15:05:19Z",
+    "updated_at": "2022-10-04T15:05:19Z",
+    "pushed_at": "2022-10-04T15:05:20Z",
+    "git_url": "git://github.com/OsmanEgretli/Deneme1.git",
+    "ssh_url": "git@github.com:OsmanEgretli/Deneme1.git",
+    "clone_url": "https://github.com/OsmanEgretli/Deneme1.git",
+    "svn_url": "https://github.com/OsmanEgretli/Deneme1",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "topics": [
+        
+    ],
+    "visibility": "private",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main",
+    "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+    },
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false,
+    "allow_update_branch": false,
+    "use_squash_pr_title_as_default": false,
+    "squash_merge_commit_message": "COMMIT_MESSAGES",
+    "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+    "merge_commit_message": "PR_TITLE",
+    "merge_commit_title": "MERGE_MESSAGE",
+    "network_count": 0,
+    "subscribers_count": 1
+}
+Request method:	GET
+Request URI:	https://api.github.com/repos/OsmanEgretli/Deneme1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Tue, 04 Oct 2022 15:05:21 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"d01dfa73a347dfdd969324f83b28c73f312287a76f5b638a271f0e9d107ddce2"
+Last-Modified: Tue, 04 Oct 2022 15:05:19 GMT
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: repo
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4966
+X-RateLimit-Reset: 1664898765
+X-RateLimit-Used: 34
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+X-GitHub-Request-Id: E02F:9EDC:9B4401:9D7EBF:633C4BB1
+
+{
+    "id": 545548399,
+    "node_id": "R_kgDOIIRobw",
+    "name": "Deneme1",
+    "full_name": "OsmanEgretli/Deneme1",
+    "private": true,
+    "owner": {
+        "login": "OsmanEgretli",
+        "id": 99646672,
+        "node_id": "U_kgDOBfB80A",
+        "avatar_url": "https://avatars.githubusercontent.com/u/99646672?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OsmanEgretli",
+        "html_url": "https://github.com/OsmanEgretli",
+        "followers_url": "https://api.github.com/users/OsmanEgretli/followers",
+        "following_url": "https://api.github.com/users/OsmanEgretli/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OsmanEgretli/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OsmanEgretli/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OsmanEgretli/subscriptions",
+        "organizations_url": "https://api.github.com/users/OsmanEgretli/orgs",
+        "repos_url": "https://api.github.com/users/OsmanEgretli/repos",
+        "events_url": "https://api.github.com/users/OsmanEgretli/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OsmanEgretli/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "html_url": "https://github.com/OsmanEgretli/Deneme1",
+    "description": "deneme1desc",
+    "fork": false,
+    "url": "https://api.github.com/repos/OsmanEgretli/Deneme1",
+    "forks_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/forks",
+    "keys_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/teams",
+    "hooks_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/hooks",
+    "issue_events_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/events",
+    "assignees_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/tags",
+    "blobs_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/languages",
+    "stargazers_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/stargazers",
+    "contributors_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/contributors",
+    "subscribers_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/subscribers",
+    "subscription_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/subscription",
+    "commits_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/merges",
+    "archive_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/downloads",
+    "issues_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/labels{/name}",
+    "releases_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/deployments",
+    "created_at": "2022-10-04T15:05:19Z",
+    "updated_at": "2022-10-04T15:05:19Z",
+    "pushed_at": "2022-10-04T15:05:20Z",
+    "git_url": "git://github.com/OsmanEgretli/Deneme1.git",
+    "ssh_url": "git@github.com:OsmanEgretli/Deneme1.git",
+    "clone_url": "https://github.com/OsmanEgretli/Deneme1.git",
+    "svn_url": "https://github.com/OsmanEgretli/Deneme1",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "topics": [
+        
+    ],
+    "visibility": "private",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main",
+    "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+    },
+    "temp_clone_token": "AXYHZUHPQTLAVFOAIL2BMZ3DHRGN2",
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false,
+    "allow_update_branch": false,
+    "use_squash_pr_title_as_default": false,
+    "squash_merge_commit_message": "COMMIT_MESSAGES",
+    "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+    "merge_commit_message": "PR_TITLE",
+    "merge_commit_title": "MERGE_MESSAGE",
+    "network_count": 0,
+    "subscribers_count": 1
+}
+Request method:	DELETE
+Request URI:	https://api.github.com/repos/OsmanEgretli/Deneme1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: GitHub.com
+Date: Tue, 04 Oct 2022 15:05:22 GMT
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: 
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4965
+X-RateLimit-Reset: 1664898765
+X-RateLimit-Used: 35
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: E030:213C:2811AC1:28A46FF:633C4BB1
+Request method:	POST
+Request URI:	https://api.github.com/user/repos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Deneme2",
+    "description": "deneme2desc",
+    "private": false
+}
+HTTP/1.1 201 Created
+Server: GitHub.com
+Date: Tue, 04 Oct 2022 15:05:23 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 5457
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: "61ffad5886fbde2ec3c571c5e36860d01ec9c7e0c3201e3dd1e83b45e901e6f5"
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: public_repo, repo
+Location: https://api.github.com/repos/OsmanEgretli/Deneme2
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4964
+X-RateLimit-Reset: 1664898765
+X-RateLimit-Used: 36
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: E031:8503:2624817:26B4AE0:633C4BB2
+
+{
+    "id": 545548424,
+    "node_id": "R_kgDOIIRoiA",
+    "name": "Deneme2",
+    "full_name": "OsmanEgretli/Deneme2",
+    "private": false,
+    "owner": {
+        "login": "OsmanEgretli",
+        "id": 99646672,
+        "node_id": "U_kgDOBfB80A",
+        "avatar_url": "https://avatars.githubusercontent.com/u/99646672?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OsmanEgretli",
+        "html_url": "https://github.com/OsmanEgretli",
+        "followers_url": "https://api.github.com/users/OsmanEgretli/followers",
+        "following_url": "https://api.github.com/users/OsmanEgretli/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OsmanEgretli/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OsmanEgretli/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OsmanEgretli/subscriptions",
+        "organizations_url": "https://api.github.com/users/OsmanEgretli/orgs",
+        "repos_url": "https://api.github.com/users/OsmanEgretli/repos",
+        "events_url": "https://api.github.com/users/OsmanEgretli/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OsmanEgretli/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "html_url": "https://github.com/OsmanEgretli/Deneme2",
+    "description": "deneme2desc",
+    "fork": false,
+    "url": "https://api.github.com/repos/OsmanEgretli/Deneme2",
+    "forks_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/forks",
+    "keys_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/teams",
+    "hooks_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/hooks",
+    "issue_events_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/events",
+    "assignees_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/tags",
+    "blobs_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/languages",
+    "stargazers_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/stargazers",
+    "contributors_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/contributors",
+    "subscribers_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/subscribers",
+    "subscription_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/subscription",
+    "commits_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/merges",
+    "archive_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/downloads",
+    "issues_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/labels{/name}",
+    "releases_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/deployments",
+    "created_at": "2022-10-04T15:05:22Z",
+    "updated_at": "2022-10-04T15:05:22Z",
+    "pushed_at": "2022-10-04T15:05:23Z",
+    "git_url": "git://github.com/OsmanEgretli/Deneme2.git",
+    "ssh_url": "git@github.com:OsmanEgretli/Deneme2.git",
+    "clone_url": "https://github.com/OsmanEgretli/Deneme2.git",
+    "svn_url": "https://github.com/OsmanEgretli/Deneme2",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "topics": [
+        
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main",
+    "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+    },
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false,
+    "allow_update_branch": false,
+    "use_squash_pr_title_as_default": false,
+    "squash_merge_commit_message": "COMMIT_MESSAGES",
+    "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+    "merge_commit_message": "PR_TITLE",
+    "merge_commit_title": "MERGE_MESSAGE",
+    "network_count": 0,
+    "subscribers_count": 1
+}
+Request method:	GET
+Request URI:	https://api.github.com/repos/OsmanEgretli/Deneme2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Tue, 04 Oct 2022 15:05:24 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"30044a32c688ae15b886398bc32b30c5091df58af6ae83d6ed7ee8c350289c07"
+Last-Modified: Tue, 04 Oct 2022 15:05:22 GMT
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: repo
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4963
+X-RateLimit-Reset: 1664898765
+X-RateLimit-Used: 37
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+X-GitHub-Request-Id: E032:D190:280E8B7:28A07BB:633C4BB3
+
+{
+    "id": 545548424,
+    "node_id": "R_kgDOIIRoiA",
+    "name": "Deneme2",
+    "full_name": "OsmanEgretli/Deneme2",
+    "private": false,
+    "owner": {
+        "login": "OsmanEgretli",
+        "id": 99646672,
+        "node_id": "U_kgDOBfB80A",
+        "avatar_url": "https://avatars.githubusercontent.com/u/99646672?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OsmanEgretli",
+        "html_url": "https://github.com/OsmanEgretli",
+        "followers_url": "https://api.github.com/users/OsmanEgretli/followers",
+        "following_url": "https://api.github.com/users/OsmanEgretli/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OsmanEgretli/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OsmanEgretli/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OsmanEgretli/subscriptions",
+        "organizations_url": "https://api.github.com/users/OsmanEgretli/orgs",
+        "repos_url": "https://api.github.com/users/OsmanEgretli/repos",
+        "events_url": "https://api.github.com/users/OsmanEgretli/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OsmanEgretli/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "html_url": "https://github.com/OsmanEgretli/Deneme2",
+    "description": "deneme2desc",
+    "fork": false,
+    "url": "https://api.github.com/repos/OsmanEgretli/Deneme2",
+    "forks_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/forks",
+    "keys_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/teams",
+    "hooks_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/hooks",
+    "issue_events_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/events",
+    "assignees_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/tags",
+    "blobs_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/languages",
+    "stargazers_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/stargazers",
+    "contributors_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/contributors",
+    "subscribers_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/subscribers",
+    "subscription_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/subscription",
+    "commits_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/merges",
+    "archive_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/downloads",
+    "issues_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/labels{/name}",
+    "releases_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/deployments",
+    "created_at": "2022-10-04T15:05:22Z",
+    "updated_at": "2022-10-04T15:05:22Z",
+    "pushed_at": "2022-10-04T15:05:23Z",
+    "git_url": "git://github.com/OsmanEgretli/Deneme2.git",
+    "ssh_url": "git@github.com:OsmanEgretli/Deneme2.git",
+    "clone_url": "https://github.com/OsmanEgretli/Deneme2.git",
+    "svn_url": "https://github.com/OsmanEgretli/Deneme2",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "topics": [
+        
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main",
+    "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+    },
+    "temp_clone_token": "",
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false,
+    "allow_update_branch": false,
+    "use_squash_pr_title_as_default": false,
+    "squash_merge_commit_message": "COMMIT_MESSAGES",
+    "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+    "merge_commit_message": "PR_TITLE",
+    "merge_commit_title": "MERGE_MESSAGE",
+    "network_count": 0,
+    "subscribers_count": 1
+}
+Request method:	DELETE
+Request URI:	https://api.github.com/repos/OsmanEgretli/Deneme2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: GitHub.com
+Date: Tue, 04 Oct 2022 15:05:24 GMT
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: delete_repo
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4962
+X-RateLimit-Reset: 1664898765
+X-RateLimit-Used: 38
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: E033:9EDC:9B4F06:9D89FF:633C4BB4
+Request method:	DELETE
+Request URI:	https://api.github.com/repos/OsmanEgretli/Repo
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: GitHub.com
+Date: Tue, 04 Oct 2022 15:05:24 GMT
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: delete_repo
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4961
+X-RateLimit-Reset: 1664898765
+X-RateLimit-Used: 39
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: E036:8503:2625285:26B555B:633C4BB4
+Request method:	POST
+Request URI:	https://api.github.com/user/repos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Repo",
+    "description": "Public repo with no auth Check",
+    "private": false
+}
+HTTP/1.1 201 Created
+Server: GitHub.com
+Date: Tue, 04 Oct 2022 15:05:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 5344
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: "1565214afa5f62ec7fb5aba920fb5c5ec691dead1da31d5adf28c689a57ba893"
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: public_repo, repo
+Location: https://api.github.com/repos/OsmanEgretli/Repo
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4960
+X-RateLimit-Reset: 1664898765
+X-RateLimit-Used: 40
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: E03B:09A3:26F466E:2785F62:633C4BB5
+
+{
+    "id": 545548446,
+    "node_id": "R_kgDOIIRong",
+    "name": "Repo",
+    "full_name": "OsmanEgretli/Repo",
+    "private": false,
+    "owner": {
+        "login": "OsmanEgretli",
+        "id": 99646672,
+        "node_id": "U_kgDOBfB80A",
+        "avatar_url": "https://avatars.githubusercontent.com/u/99646672?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OsmanEgretli",
+        "html_url": "https://github.com/OsmanEgretli",
+        "followers_url": "https://api.github.com/users/OsmanEgretli/followers",
+        "following_url": "https://api.github.com/users/OsmanEgretli/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OsmanEgretli/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OsmanEgretli/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OsmanEgretli/subscriptions",
+        "organizations_url": "https://api.github.com/users/OsmanEgretli/orgs",
+        "repos_url": "https://api.github.com/users/OsmanEgretli/repos",
+        "events_url": "https://api.github.com/users/OsmanEgretli/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OsmanEgretli/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "html_url": "https://github.com/OsmanEgretli/Repo",
+    "description": "Public repo with no auth Check",
+    "fork": false,
+    "url": "https://api.github.com/repos/OsmanEgretli/Repo",
+    "forks_url": "https://api.github.com/repos/OsmanEgretli/Repo/forks",
+    "keys_url": "https://api.github.com/repos/OsmanEgretli/Repo/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/OsmanEgretli/Repo/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/OsmanEgretli/Repo/teams",
+    "hooks_url": "https://api.github.com/repos/OsmanEgretli/Repo/hooks",
+    "issue_events_url": "https://api.github.com/repos/OsmanEgretli/Repo/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/OsmanEgretli/Repo/events",
+    "assignees_url": "https://api.github.com/repos/OsmanEgretli/Repo/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/OsmanEgretli/Repo/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/OsmanEgretli/Repo/tags",
+    "blobs_url": "https://api.github.com/repos/OsmanEgretli/Repo/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/OsmanEgretli/Repo/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/OsmanEgretli/Repo/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/OsmanEgretli/Repo/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/OsmanEgretli/Repo/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/OsmanEgretli/Repo/languages",
+    "stargazers_url": "https://api.github.com/repos/OsmanEgretli/Repo/stargazers",
+    "contributors_url": "https://api.github.com/repos/OsmanEgretli/Repo/contributors",
+    "subscribers_url": "https://api.github.com/repos/OsmanEgretli/Repo/subscribers",
+    "subscription_url": "https://api.github.com/repos/OsmanEgretli/Repo/subscription",
+    "commits_url": "https://api.github.com/repos/OsmanEgretli/Repo/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/OsmanEgretli/Repo/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/OsmanEgretli/Repo/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/OsmanEgretli/Repo/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/OsmanEgretli/Repo/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/OsmanEgretli/Repo/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/OsmanEgretli/Repo/merges",
+    "archive_url": "https://api.github.com/repos/OsmanEgretli/Repo/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/OsmanEgretli/Repo/downloads",
+    "issues_url": "https://api.github.com/repos/OsmanEgretli/Repo/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/OsmanEgretli/Repo/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/OsmanEgretli/Repo/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/OsmanEgretli/Repo/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/OsmanEgretli/Repo/labels{/name}",
+    "releases_url": "https://api.github.com/repos/OsmanEgretli/Repo/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/OsmanEgretli/Repo/deployments",
+    "created_at": "2022-10-04T15:05:25Z",
+    "updated_at": "2022-10-04T15:05:25Z",
+    "pushed_at": "2022-10-04T15:05:25Z",
+    "git_url": "git://github.com/OsmanEgretli/Repo.git",
+    "ssh_url": "git@github.com:OsmanEgretli/Repo.git",
+    "clone_url": "https://github.com/OsmanEgretli/Repo.git",
+    "svn_url": "https://github.com/OsmanEgretli/Repo",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "topics": [
+        
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main",
+    "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+    },
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false,
+    "allow_update_branch": false,
+    "use_squash_pr_title_as_default": false,
+    "squash_merge_commit_message": "COMMIT_MESSAGES",
+    "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+    "merge_commit_message": "PR_TITLE",
+    "merge_commit_title": "MERGE_MESSAGE",
+    "network_count": 0,
+    "subscribers_count": 1
+}
+Request method:	GET
+Request URI:	https://api.github.com/repos/OsmanEgretli/Repo
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/vnd.github+json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Tue, 04 Oct 2022 15:05:26 GMT
+Content-Type: application/json; charset=utf-8
+Cache-Control: public, max-age=60, s-maxage=60
+Vary: Accept, Accept-Encoding, Accept, X-Requested-With
+ETag: W/"1250e2b333a1224945b68a41b386281020210db2b136266b23ed713cb1b62b37"
+Last-Modified: Tue, 04 Oct 2022 15:05:25 GMT
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Content-Encoding: gzip
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 55
+X-RateLimit-Reset: 1664898774
+X-RateLimit-Resource: core
+X-RateLimit-Used: 5
+Accept-Ranges: bytes
+Content-Length: 1183
+X-GitHub-Request-Id: E03C:FFDA:2ADEF51:2B723EA:633C4BB6
+
+{
+    "id": 545548446,
+    "node_id": "R_kgDOIIRong",
+    "name": "Repo",
+    "full_name": "OsmanEgretli/Repo",
+    "private": false,
+    "owner": {
+        "login": "OsmanEgretli",
+        "id": 99646672,
+        "node_id": "U_kgDOBfB80A",
+        "avatar_url": "https://avatars.githubusercontent.com/u/99646672?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OsmanEgretli",
+        "html_url": "https://github.com/OsmanEgretli",
+        "followers_url": "https://api.github.com/users/OsmanEgretli/followers",
+        "following_url": "https://api.github.com/users/OsmanEgretli/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OsmanEgretli/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OsmanEgretli/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OsmanEgretli/subscriptions",
+        "organizations_url": "https://api.github.com/users/OsmanEgretli/orgs",
+        "repos_url": "https://api.github.com/users/OsmanEgretli/repos",
+        "events_url": "https://api.github.com/users/OsmanEgretli/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OsmanEgretli/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "html_url": "https://github.com/OsmanEgretli/Repo",
+    "description": "Public repo with no auth Check",
+    "fork": false,
+    "url": "https://api.github.com/repos/OsmanEgretli/Repo",
+    "forks_url": "https://api.github.com/repos/OsmanEgretli/Repo/forks",
+    "keys_url": "https://api.github.com/repos/OsmanEgretli/Repo/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/OsmanEgretli/Repo/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/OsmanEgretli/Repo/teams",
+    "hooks_url": "https://api.github.com/repos/OsmanEgretli/Repo/hooks",
+    "issue_events_url": "https://api.github.com/repos/OsmanEgretli/Repo/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/OsmanEgretli/Repo/events",
+    "assignees_url": "https://api.github.com/repos/OsmanEgretli/Repo/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/OsmanEgretli/Repo/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/OsmanEgretli/Repo/tags",
+    "blobs_url": "https://api.github.com/repos/OsmanEgretli/Repo/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/OsmanEgretli/Repo/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/OsmanEgretli/Repo/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/OsmanEgretli/Repo/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/OsmanEgretli/Repo/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/OsmanEgretli/Repo/languages",
+    "stargazers_url": "https://api.github.com/repos/OsmanEgretli/Repo/stargazers",
+    "contributors_url": "https://api.github.com/repos/OsmanEgretli/Repo/contributors",
+    "subscribers_url": "https://api.github.com/repos/OsmanEgretli/Repo/subscribers",
+    "subscription_url": "https://api.github.com/repos/OsmanEgretli/Repo/subscription",
+    "commits_url": "https://api.github.com/repos/OsmanEgretli/Repo/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/OsmanEgretli/Repo/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/OsmanEgretli/Repo/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/OsmanEgretli/Repo/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/OsmanEgretli/Repo/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/OsmanEgretli/Repo/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/OsmanEgretli/Repo/merges",
+    "archive_url": "https://api.github.com/repos/OsmanEgretli/Repo/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/OsmanEgretli/Repo/downloads",
+    "issues_url": "https://api.github.com/repos/OsmanEgretli/Repo/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/OsmanEgretli/Repo/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/OsmanEgretli/Repo/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/OsmanEgretli/Repo/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/OsmanEgretli/Repo/labels{/name}",
+    "releases_url": "https://api.github.com/repos/OsmanEgretli/Repo/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/OsmanEgretli/Repo/deployments",
+    "created_at": "2022-10-04T15:05:25Z",
+    "updated_at": "2022-10-04T15:05:25Z",
+    "pushed_at": "2022-10-04T15:05:25Z",
+    "git_url": "git://github.com/OsmanEgretli/Repo.git",
+    "ssh_url": "git@github.com:OsmanEgretli/Repo.git",
+    "clone_url": "https://github.com/OsmanEgretli/Repo.git",
+    "svn_url": "https://github.com/OsmanEgretli/Repo",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "topics": [
+        
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 0,
+    "subscribers_count": 1
+}
+Request method:	DELETE
+Request URI:	https://api.github.com/repos/OsmanEgretli/Repo
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/vnd.github+json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 403 Forbidden
+Server: GitHub.com
+Date: Tue, 04 Oct 2022 15:05:26 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 55
+X-RateLimit-Reset: 1664898774
+X-RateLimit-Used: 5
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+X-GitHub-Request-Id: E03D:07D6:26847D0:2715EA1:633C4BB6
+
+{
+    "message": "Must have admin rights to Repository.",
+    "documentation_url": "https://docs.github.com/rest/reference/repos#delete-a-repository"
+}
