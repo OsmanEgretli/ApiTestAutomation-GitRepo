@@ -996,7 +996,7 @@ X-GitHub-Request-Id: E03C:FFDA:2ADEF51:2B723EA:633C4BB6
     },
     "html_url": "https://github.com/OsmanEgretli/Repo",
     "description": "Public repo with no auth Check",
-    "fork": false,
+    "fork": false,sd
     "url": "https://api.github.com/repos/OsmanEgretli/Repo",
     "forks_url": "https://api.github.com/repos/OsmanEgretli/Repo/forks",
     "keys_url": "https://api.github.com/repos/OsmanEgretli/Repo/keys{/key_id}",
