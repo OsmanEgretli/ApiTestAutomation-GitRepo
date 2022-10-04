@@ -5,7 +5,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer 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
+Headers:		Authorization=Bearer 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
 				Accept=application/vnd.github+json
 				Content-Type=application/json
 Cookies:		<none>
@@ -18,20 +18,20 @@ Body:
 }
 HTTP/1.1 201 Created
 Server: GitHub.com
-Date: Tue, 04 Oct 2022 15:05:21 GMT
+Date: Tue, 04 Oct 2022 18:20:43 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 5457
 Cache-Control: private, max-age=60, s-maxage=60
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
-ETag: "4ad11f84473f6218d9d0ef8331bdcf3978569fa089d45e7bb148ced5714150ca"
+ETag: "ff864622a9be487000ea9961b3c6a363d0c8cf78c6ebd340d9f2d108b8d0ddc0"
 X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
 X-Accepted-OAuth-Scopes: public_repo, repo
 Location: https://api.github.com/repos/OsmanEgretli/Deneme1
 X-GitHub-Media-Type: github.v3; format=json
 X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4967
-X-RateLimit-Reset: 1664898765
-X-RateLimit-Used: 33
+X-RateLimit-Remaining: 4983
+X-RateLimit-Reset: 1664911025
+X-RateLimit-Used: 17
 X-RateLimit-Resource: core
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 Access-Control-Allow-Origin: *
@@ -42,11 +42,11 @@ X-XSS-Protection: 0
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding, Accept, X-Requested-With
-X-GitHub-Request-Id: E02E:D190:280D668:289F52F:633C4BAF
+X-GitHub-Request-Id: CD49:D190:328B8EE:3343B7A:633C7979
 
 {
-    "id": 545548399,
-    "node_id": "R_kgDOIIRobw",
+    "id": 545640276,
+    "node_id": "R_kgDOIIXPVA",
     "name": "Deneme1",
     "full_name": "OsmanEgretli/Deneme1",
     "private": true,
@@ -110,9 +110,9 @@ X-GitHub-Request-Id: E02E:D190:280D668:289F52F:633C4BAF
     "labels_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/labels{/name}",
     "releases_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/releases{/id}",
     "deployments_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/deployments",
-    "created_at": "2022-10-04T15:05:19Z",
-    "updated_at": "2022-10-04T15:05:19Z",
-    "pushed_at": "2022-10-04T15:05:20Z",
+    "created_at": "2022-10-04T18:20:42Z",
+    "updated_at": "2022-10-04T18:20:42Z",
+    "pushed_at": "2022-10-04T18:20:42Z",
     "git_url": "git://github.com/OsmanEgretli/Deneme1.git",
     "ssh_url": "git@github.com:OsmanEgretli/Deneme1.git",
     "clone_url": "https://github.com/OsmanEgretli/Deneme1.git",
@@ -163,7 +163,7 @@ X-GitHub-Request-Id: E02E:D190:280D668:289F52F:633C4BAF
     "merge_commit_message": "PR_TITLE",
     "merge_commit_title": "MERGE_MESSAGE",
     "network_count": 0,
-    "subscribers_count": 1
+    "subscribers_count": 0
 }
 Request method:	GET
 Request URI:	https://api.github.com/repos/OsmanEgretli/Deneme1
@@ -172,7 +172,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer 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
+Headers:		Authorization=Bearer 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
 				Accept=application/vnd.github+json
 				Content-Type=application/json
 Cookies:		<none>
@@ -180,20 +180,20 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
 Server: GitHub.com
-Date: Tue, 04 Oct 2022 15:05:21 GMT
+Date: Tue, 04 Oct 2022 18:20:45 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Cache-Control: private, max-age=60, s-maxage=60
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
-ETag: W/"d01dfa73a347dfdd969324f83b28c73f312287a76f5b638a271f0e9d107ddce2"
-Last-Modified: Tue, 04 Oct 2022 15:05:19 GMT
+ETag: W/"467614a0fae5679038ab726f52174ca52186596afa2a7d381fd44abb9e6a90f2"
+Last-Modified: Tue, 04 Oct 2022 18:20:42 GMT
 X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
 X-Accepted-OAuth-Scopes: repo
 X-GitHub-Media-Type: github.v3; format=json
 X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4966
-X-RateLimit-Reset: 1664898765
-X-RateLimit-Used: 34
+X-RateLimit-Remaining: 4982
+X-RateLimit-Reset: 1664911025
+X-RateLimit-Used: 18
 X-RateLimit-Resource: core
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 Access-Control-Allow-Origin: *
@@ -205,11 +205,11 @@ Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding, Accept, X-Requested-With
 Content-Encoding: gzip
-X-GitHub-Request-Id: E02F:9EDC:9B4401:9D7EBF:633C4BB1
+X-GitHub-Request-Id: CD4A:87F5:32C8EB1:337ED68:633C797D
 
 {
-    "id": 545548399,
-    "node_id": "R_kgDOIIRobw",
+    "id": 545640276,
+    "node_id": "R_kgDOIIXPVA",
     "name": "Deneme1",
     "full_name": "OsmanEgretli/Deneme1",
     "private": true,
@@ -273,9 +273,9 @@ X-GitHub-Request-Id: E02F:9EDC:9B4401:9D7EBF:633C4BB1
     "labels_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/labels{/name}",
     "releases_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/releases{/id}",
     "deployments_url": "https://api.github.com/repos/OsmanEgretli/Deneme1/deployments",
-    "created_at": "2022-10-04T15:05:19Z",
-    "updated_at": "2022-10-04T15:05:19Z",
-    "pushed_at": "2022-10-04T15:05:20Z",
+    "created_at": "2022-10-04T18:20:42Z",
+    "updated_at": "2022-10-04T18:20:42Z",
+    "pushed_at": "2022-10-04T18:20:42Z",
     "git_url": "git://github.com/OsmanEgretli/Deneme1.git",
     "ssh_url": "git@github.com:OsmanEgretli/Deneme1.git",
     "clone_url": "https://github.com/OsmanEgretli/Deneme1.git",
@@ -314,7 +314,7 @@ X-GitHub-Request-Id: E02F:9EDC:9B4401:9D7EBF:633C4BB1
         "triage": true,
         "pull": true
     },
-    "temp_clone_token": "AXYHZUHPQTLAVFOAIL2BMZ3DHRGN2",
+    "temp_clone_token": "AXYHZUDGW5SRAIXNBSQHQ5LDHR5KS",
     "allow_squash_merge": true,
     "allow_merge_commit": true,
     "allow_rebase_merge": true,
@@ -336,7 +336,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer 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
+Headers:		Authorization=Bearer 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
 				Accept=application/vnd.github+json
 				Content-Type=application/json
 Cookies:		<none>
@@ -344,14 +344,14 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 204 No Content
 Server: GitHub.com
-Date: Tue, 04 Oct 2022 15:05:22 GMT
+Date: Tue, 04 Oct 2022 18:20:45 GMT
 X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
 X-Accepted-OAuth-Scopes: 
 X-GitHub-Media-Type: github.v3; format=json
 X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4965
-X-RateLimit-Reset: 1664898765
-X-RateLimit-Used: 35
+X-RateLimit-Remaining: 4981
+X-RateLimit-Reset: 1664911025
+X-RateLimit-Used: 19
 X-RateLimit-Resource: core
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 Access-Control-Allow-Origin: *
@@ -362,7 +362,7 @@ X-XSS-Protection: 0
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding, Accept, X-Requested-With
-X-GitHub-Request-Id: E030:213C:2811AC1:28A46FF:633C4BB1
+X-GitHub-Request-Id: CD4B:8503:30A1F2D:3157BCE:633C797D
 Request method:	POST
 Request URI:	https://api.github.com/user/repos
 Proxy:			<none>
@@ -370,7 +370,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer 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
+Headers:		Authorization=Bearer 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
 				Accept=application/vnd.github+json
 				Content-Type=application/json
 Cookies:		<none>
@@ -383,20 +383,20 @@ Body:
 }
 HTTP/1.1 201 Created
 Server: GitHub.com
-Date: Tue, 04 Oct 2022 15:05:23 GMT
+Date: Tue, 04 Oct 2022 18:20:47 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 5457
 Cache-Control: private, max-age=60, s-maxage=60
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
-ETag: "61ffad5886fbde2ec3c571c5e36860d01ec9c7e0c3201e3dd1e83b45e901e6f5"
+ETag: "9a7a35cce3208ce78ae2f0a4e13f43391df002a987e2f91800d072d53e70dca8"
 X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
 X-Accepted-OAuth-Scopes: public_repo, repo
 Location: https://api.github.com/repos/OsmanEgretli/Deneme2
 X-GitHub-Media-Type: github.v3; format=json
 X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4964
-X-RateLimit-Reset: 1664898765
-X-RateLimit-Used: 36
+X-RateLimit-Remaining: 4980
+X-RateLimit-Reset: 1664911025
+X-RateLimit-Used: 20
 X-RateLimit-Resource: core
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 Access-Control-Allow-Origin: *
@@ -407,11 +407,11 @@ X-XSS-Protection: 0
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding, Accept, X-Requested-With
-X-GitHub-Request-Id: E031:8503:2624817:26B4AE0:633C4BB2
+X-GitHub-Request-Id: CD4C:D190:328C56F:334483B:633C797E
 
 {
-    "id": 545548424,
-    "node_id": "R_kgDOIIRoiA",
+    "id": 545640308,
+    "node_id": "R_kgDOIIXPdA",
     "name": "Deneme2",
     "full_name": "OsmanEgretli/Deneme2",
     "private": false,
@@ -475,9 +475,9 @@ X-GitHub-Request-Id: E031:8503:2624817:26B4AE0:633C4BB2
     "labels_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/labels{/name}",
     "releases_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/releases{/id}",
     "deployments_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/deployments",
-    "created_at": "2022-10-04T15:05:22Z",
-    "updated_at": "2022-10-04T15:05:22Z",
-    "pushed_at": "2022-10-04T15:05:23Z",
+    "created_at": "2022-10-04T18:20:46Z",
+    "updated_at": "2022-10-04T18:20:46Z",
+    "pushed_at": "2022-10-04T18:20:46Z",
     "git_url": "git://github.com/OsmanEgretli/Deneme2.git",
     "ssh_url": "git@github.com:OsmanEgretli/Deneme2.git",
     "clone_url": "https://github.com/OsmanEgretli/Deneme2.git",
@@ -537,7 +537,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer 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
+Headers:		Authorization=Bearer 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
 				Accept=application/vnd.github+json
 				Content-Type=application/json
 Cookies:		<none>
@@ -545,20 +545,20 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
 Server: GitHub.com
-Date: Tue, 04 Oct 2022 15:05:24 GMT
+Date: Tue, 04 Oct 2022 18:20:47 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Cache-Control: private, max-age=60, s-maxage=60
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
-ETag: W/"30044a32c688ae15b886398bc32b30c5091df58af6ae83d6ed7ee8c350289c07"
-Last-Modified: Tue, 04 Oct 2022 15:05:22 GMT
+ETag: W/"8faf1c266eda503e87d2646b8ad2ee0fd926eefcebc539820fd8cee970cd1f61"
+Last-Modified: Tue, 04 Oct 2022 18:20:46 GMT
 X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
 X-Accepted-OAuth-Scopes: repo
 X-GitHub-Media-Type: github.v3; format=json
 X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4963
-X-RateLimit-Reset: 1664898765
-X-RateLimit-Used: 37
+X-RateLimit-Remaining: 4979
+X-RateLimit-Reset: 1664911025
+X-RateLimit-Used: 21
 X-RateLimit-Resource: core
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 Access-Control-Allow-Origin: *
@@ -570,11 +570,11 @@ Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding, Accept, X-Requested-With
 Content-Encoding: gzip
-X-GitHub-Request-Id: E032:D190:280E8B7:28A07BB:633C4BB3
+X-GitHub-Request-Id: CD51:09A3:317C09F:32337A5:633C797F
 
 {
-    "id": 545548424,
-    "node_id": "R_kgDOIIRoiA",
+    "id": 545640308,
+    "node_id": "R_kgDOIIXPdA",
     "name": "Deneme2",
     "full_name": "OsmanEgretli/Deneme2",
     "private": false,
@@ -638,9 +638,9 @@ X-GitHub-Request-Id: E032:D190:280E8B7:28A07BB:633C4BB3
     "labels_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/labels{/name}",
     "releases_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/releases{/id}",
     "deployments_url": "https://api.github.com/repos/OsmanEgretli/Deneme2/deployments",
-    "created_at": "2022-10-04T15:05:22Z",
-    "updated_at": "2022-10-04T15:05:22Z",
-    "pushed_at": "2022-10-04T15:05:23Z",
+    "created_at": "2022-10-04T18:20:46Z",
+    "updated_at": "2022-10-04T18:20:46Z",
+    "pushed_at": "2022-10-04T18:20:46Z",
     "git_url": "git://github.com/OsmanEgretli/Deneme2.git",
     "ssh_url": "git@github.com:OsmanEgretli/Deneme2.git",
     "clone_url": "https://github.com/OsmanEgretli/Deneme2.git",
@@ -701,7 +701,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer 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
+Headers:		Authorization=Bearer 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
 				Accept=application/vnd.github+json
 				Content-Type=application/json
 Cookies:		<none>
@@ -709,14 +709,14 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 204 No Content
 Server: GitHub.com
-Date: Tue, 04 Oct 2022 15:05:24 GMT
+Date: Tue, 04 Oct 2022 18:20:48 GMT
 X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
 X-Accepted-OAuth-Scopes: delete_repo
 X-GitHub-Media-Type: github.v3; format=json
 X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4962
-X-RateLimit-Reset: 1664898765
-X-RateLimit-Used: 38
+X-RateLimit-Remaining: 4978
+X-RateLimit-Reset: 1664911025
+X-RateLimit-Used: 22
 X-RateLimit-Resource: core
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 Access-Control-Allow-Origin: *
@@ -727,7 +727,7 @@ X-XSS-Protection: 0
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding, Accept, X-Requested-With
-X-GitHub-Request-Id: E033:9EDC:9B4F06:9D89FF:633C4BB4
+X-GitHub-Request-Id: CD54:7387:3312F04:33C97E1:633C797F
 Request method:	DELETE
 Request URI:	https://api.github.com/repos/OsmanEgretli/Repo
 Proxy:			<none>
@@ -735,7 +735,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer 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
+Headers:		Authorization=Bearer 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
 				Accept=application/vnd.github+json
 				Content-Type=application/json
 Cookies:		<none>
@@ -743,14 +743,14 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 204 No Content
 Server: GitHub.com
-Date: Tue, 04 Oct 2022 15:05:24 GMT
+Date: Tue, 04 Oct 2022 18:20:48 GMT
 X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
 X-Accepted-OAuth-Scopes: delete_repo
 X-GitHub-Media-Type: github.v3; format=json
 X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4961
-X-RateLimit-Reset: 1664898765
-X-RateLimit-Used: 39
+X-RateLimit-Remaining: 4977
+X-RateLimit-Reset: 1664911025
+X-RateLimit-Used: 23
 X-RateLimit-Resource: core
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 Access-Control-Allow-Origin: *
@@ -761,7 +761,7 @@ X-XSS-Protection: 0
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding, Accept, X-Requested-With
-X-GitHub-Request-Id: E036:8503:2625285:26B555B:633C4BB4
+X-GitHub-Request-Id: CD55:8503:30A2771:3158445:633C7980
 Request method:	POST
 Request URI:	https://api.github.com/user/repos
 Proxy:			<none>
@@ -769,7 +769,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer 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
+Headers:		Authorization=Bearer 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
 				Accept=application/vnd.github+json
 				Content-Type=application/json
 Cookies:		<none>
@@ -782,20 +782,20 @@ Body:
 }
 HTTP/1.1 201 Created
 Server: GitHub.com
-Date: Tue, 04 Oct 2022 15:05:26 GMT
+Date: Tue, 04 Oct 2022 18:20:50 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 5344
 Cache-Control: private, max-age=60, s-maxage=60
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
-ETag: "1565214afa5f62ec7fb5aba920fb5c5ec691dead1da31d5adf28c689a57ba893"
+ETag: "0e81ab996e32c66cfd51e05b19cdd11ce206e8bcd108d8f90fc29dd02716a067"
 X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
 X-Accepted-OAuth-Scopes: public_repo, repo
 Location: https://api.github.com/repos/OsmanEgretli/Repo
 X-GitHub-Media-Type: github.v3; format=json
 X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4960
-X-RateLimit-Reset: 1664898765
-X-RateLimit-Used: 40
+X-RateLimit-Remaining: 4976
+X-RateLimit-Reset: 1664911025
+X-RateLimit-Used: 24
 X-RateLimit-Resource: core
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 Access-Control-Allow-Origin: *
@@ -806,11 +806,11 @@ X-XSS-Protection: 0
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding, Accept, X-Requested-With
-X-GitHub-Request-Id: E03B:09A3:26F466E:2785F62:633C4BB5
+X-GitHub-Request-Id: CD56:EC44:3282A2A:3338EF9:633C7980
 
 {
-    "id": 545548446,
-    "node_id": "R_kgDOIIRong",
+    "id": 545640323,
+    "node_id": "R_kgDOIIXPgw",
     "name": "Repo",
     "full_name": "OsmanEgretli/Repo",
     "private": false,
@@ -874,9 +874,9 @@ X-GitHub-Request-Id: E03B:09A3:26F466E:2785F62:633C4BB5
     "labels_url": "https://api.github.com/repos/OsmanEgretli/Repo/labels{/name}",
     "releases_url": "https://api.github.com/repos/OsmanEgretli/Repo/releases{/id}",
     "deployments_url": "https://api.github.com/repos/OsmanEgretli/Repo/deployments",
-    "created_at": "2022-10-04T15:05:25Z",
-    "updated_at": "2022-10-04T15:05:25Z",
-    "pushed_at": "2022-10-04T15:05:25Z",
+    "created_at": "2022-10-04T18:20:49Z",
+    "updated_at": "2022-10-04T18:20:49Z",
+    "pushed_at": "2022-10-04T18:20:49Z",
     "git_url": "git://github.com/OsmanEgretli/Repo.git",
     "ssh_url": "git@github.com:OsmanEgretli/Repo.git",
     "clone_url": "https://github.com/OsmanEgretli/Repo.git",
@@ -943,12 +943,12 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
 Server: GitHub.com
-Date: Tue, 04 Oct 2022 15:05:26 GMT
+Date: Tue, 04 Oct 2022 18:20:50 GMT
 Content-Type: application/json; charset=utf-8
 Cache-Control: public, max-age=60, s-maxage=60
 Vary: Accept, Accept-Encoding, Accept, X-Requested-With
-ETag: W/"1250e2b333a1224945b68a41b386281020210db2b136266b23ed713cb1b62b37"
-Last-Modified: Tue, 04 Oct 2022 15:05:25 GMT
+ETag: W/"1350408f0aa17621d8eaeaf978127af516e730837eaa93d7285cfc7e8c8d182d"
+Last-Modified: Tue, 04 Oct 2022 18:20:49 GMT
 X-GitHub-Media-Type: github.v3; format=json
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 Access-Control-Allow-Origin: *
@@ -960,17 +960,17 @@ Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Content-Encoding: gzip
 X-RateLimit-Limit: 60
-X-RateLimit-Remaining: 55
-X-RateLimit-Reset: 1664898774
+X-RateLimit-Remaining: 57
+X-RateLimit-Reset: 1664911034
 X-RateLimit-Resource: core
-X-RateLimit-Used: 5
+X-RateLimit-Used: 3
 Accept-Ranges: bytes
-Content-Length: 1183
-X-GitHub-Request-Id: E03C:FFDA:2ADEF51:2B723EA:633C4BB6
+Content-Length: 1185
+X-GitHub-Request-Id: CD57:8503:30A2D50:3158A33:633C7982
 
 {
-    "id": 545548446,
-    "node_id": "R_kgDOIIRong",
+    "id": 545640323,
+    "node_id": "R_kgDOIIXPgw",
     "name": "Repo",
     "full_name": "OsmanEgretli/Repo",
     "private": false,
@@ -996,7 +996,7 @@ X-GitHub-Request-Id: E03C:FFDA:2ADEF51:2B723EA:633C4BB6
     },
     "html_url": "https://github.com/OsmanEgretli/Repo",
     "description": "Public repo with no auth Check",
-    "fork": false,sd
+    "fork": false,
     "url": "https://api.github.com/repos/OsmanEgretli/Repo",
     "forks_url": "https://api.github.com/repos/OsmanEgretli/Repo/forks",
     "keys_url": "https://api.github.com/repos/OsmanEgretli/Repo/keys{/key_id}",
@@ -1034,9 +1034,9 @@ X-GitHub-Request-Id: E03C:FFDA:2ADEF51:2B723EA:633C4BB6
     "labels_url": "https://api.github.com/repos/OsmanEgretli/Repo/labels{/name}",
     "releases_url": "https://api.github.com/repos/OsmanEgretli/Repo/releases{/id}",
     "deployments_url": "https://api.github.com/repos/OsmanEgretli/Repo/deployments",
-    "created_at": "2022-10-04T15:05:25Z",
-    "updated_at": "2022-10-04T15:05:25Z",
-    "pushed_at": "2022-10-04T15:05:25Z",
+    "created_at": "2022-10-04T18:20:49Z",
+    "updated_at": "2022-10-04T18:20:49Z",
+    "pushed_at": "2022-10-04T18:20:49Z",
     "git_url": "git://github.com/OsmanEgretli/Repo.git",
     "ssh_url": "git@github.com:OsmanEgretli/Repo.git",
     "clone_url": "https://github.com/OsmanEgretli/Repo.git",
@@ -1086,14 +1086,14 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 403 Forbidden
 Server: GitHub.com
-Date: Tue, 04 Oct 2022 15:05:26 GMT
+Date: Tue, 04 Oct 2022 18:20:50 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 X-GitHub-Media-Type: github.v3; format=json
 X-RateLimit-Limit: 60
-X-RateLimit-Remaining: 55
-X-RateLimit-Reset: 1664898774
-X-RateLimit-Used: 5
+X-RateLimit-Remaining: 57
+X-RateLimit-Reset: 1664911034
+X-RateLimit-Used: 3
 X-RateLimit-Resource: core
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 Access-Control-Allow-Origin: *
@@ -1105,7 +1105,7 @@ Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding, Accept, X-Requested-With
 Content-Encoding: gzip
-X-GitHub-Request-Id: E03D:07D6:26847D0:2715EA1:633C4BB6
+X-GitHub-Request-Id: CD58:9F59:31BBAA4:3271354:633C7982
 
 {
     "message": "Must have admin rights to Repository.",

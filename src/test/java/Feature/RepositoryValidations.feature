@@ -26,6 +26,7 @@ Feature: Create,Read and Delete a Repo with authorization
     Given User calls "GetRepoAPI" request with "No Auth"
     Then  Verify api call got success with 200 status
     Then User calls "DeleteRepoAPI" request with "No Auth"
-
+    Then  Verify api call got success with 403 status
+    Then Verify Response body's "message" variable's value is "Must have admin rights to Repository."
 
 
